@@ -78,3 +78,20 @@
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .form-control-button button{
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .message{
+    font-size: 12px;
+  }
+
+}
